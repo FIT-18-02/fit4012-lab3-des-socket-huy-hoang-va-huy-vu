@@ -1,0 +1,15 @@
+Thời gian: 2026-05-07 23:00
+Thành viên thực hiện: Phạm Huy Hoàng
+
+Tình huống:
+Kiểm thử giải mã bằng khóa DES sai.
+
+Input:
+Ciphertext được giải mã bằng wrong key.
+
+Kết quả:
+Receiver không thể giải mã đúng dữ liệu.
+Xuất hiện lỗi padding không hợp lệ.
+
+Trạng thái:
+PASS

@@ -1,0 +1,15 @@
+Thời gian: 2026-05-07 22:45
+Thành viên thực hiện: Ma Huy Vũ
+
+Tình huống:
+Kiểm thử chỉnh sửa ciphertext (tamper attack).
+
+Input:
+Thay đổi 1 byte trong ciphertext trước khi giải mã.
+
+Kết quả:
+Receiver không giải mã đúng dữ liệu.
+Phát hiện lỗi padding không hợp lệ.
+
+Trạng thái:
+PASS

@@ -11,7 +11,7 @@ LOG_FILE = os.getenv('SENDER_LOG_FILE', '')
 def get_message() -> bytes:
     if MESSAGE_ENV is not None:
         return MESSAGE_ENV.encode('utf-8')
-    plain = input("Nhập bản tin: ")
+    plain = input("Enter message: ")
     return plain.encode('utf-8')
 
 
@@ -25,7 +25,7 @@ def main() -> None:
         s.sendall(overall)
 
     lines = [
-        "[+] Đã gửi bản mã.",
+        "[+] Ciphertext sent.",
         f"Key: {key.hex()}",
         f"IV: {iv.hex()}",
         f"Ciphertext: {cipher_bytes.hex()}",

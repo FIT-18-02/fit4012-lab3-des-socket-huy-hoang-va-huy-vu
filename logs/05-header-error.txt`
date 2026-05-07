@@ -1,0 +1,15 @@
+Thời gian: 2026-05-07 23:00
+Thành viên thực hiện: Ma Huy Vũ
+
+Tình huống:
+Kiểm thử lỗi header packet.
+
+Input:
+Header bị thiếu dữ liệu hoặc sai độ dài.
+
+Kết quả:
+Receiver phát hiện header không hợp lệ.
+Quá trình parse packet thất bại và kết nối bị từ chối.
+
+Trạng thái:
+PASS

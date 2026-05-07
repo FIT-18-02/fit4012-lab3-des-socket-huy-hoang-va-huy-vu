@@ -1,0 +1,15 @@
+Time: 2026-05-07 22:30
+Member: Ma Huy Vu
+
+Scenario:
+Normal sender/receiver communication.
+
+Input:
+Hello FIT4012
+
+Result:
+Packet sent successfully.
+Receiver decrypted plaintext successfully.
+
+Status:
+PASS

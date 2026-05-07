@@ -1,0 +1,15 @@
+Thời gian: 2026-05-07 22:45
+Thành viên thực hiện: Phạm Huy Hoàng
+
+Tình huống:
+Kiểm thử gửi và nhận dữ liệu bình thường.
+
+Input:
+Xin chao FIT4012
+
+Kết quả:
+Sender gửi packet thành công.
+Receiver nhận và giải mã đúng plaintext.
+
+Trạng thái:
+PASS
