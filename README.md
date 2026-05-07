@@ -12,8 +12,8 @@ Bài lab bám theo luồng hệ thống trong file hướng dẫn: Sender tạo 
 - Khi demo, giảng viên có thể hỏi chéo bất kỳ thành viên nào về **sender**, **receiver**, **DES-CBC**, **padding**, **threat model** và **ethics**.
 
 ## Team members
-- **Thành viên 1**: TODO_MEMBER_1 - 1871020669: Ma Huy Vũ
-- **Thành viên 2**: TODO_MEMBER_2 - 1871020251: Phạm Huy Hoàng
+- **Thành viên 1**: Ma Huy Vũ - 1871020669
+- **Thành viên 2**: Phạm Huy Hoàng - 1871020251
 
 ## Task division
 - **Thành viên 1 phụ trách chính**: sender.py, receiver.py, DES encryption/decryption, socket communication, packet handling, debugging, pytest testing
